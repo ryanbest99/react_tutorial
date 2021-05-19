@@ -9,8 +9,14 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.title {
+  text-align: center;
+  font-size: 3rem;
+  margin: 3rem;
+}
+
 .booklist {
-  border: 5px solid red;
+  /* border: 5px solid red; */
   width: 90vw;
   max-width: 1172px;
   margin: 5rem auto;
@@ -19,7 +25,7 @@ body {
 }
 
 .book {
-  border: 3px solid blue;
+  /* border: 3px solid blue; */
   background: #fff;
   padding: 1rem 2rem;
   /* margin: 0.25rem; */
@@ -48,4 +54,9 @@ body {
     justify-content: center;
     align-content: center;
   }
+}
+
+.btn {
+  padding: 0.25rem 2rem;
+  margin-top: 0.5rem;
 }
